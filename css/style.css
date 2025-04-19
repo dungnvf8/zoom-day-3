@@ -1,3 +1,141 @@
-h1{
-    color: red;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkolivegreen;
+}
+
+/* CV */
+.cv {
+    max-width: 560px;
+    min-height: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 32px;
+}
+
+.page {
+    text-align: center;
+}
+
+.content {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.content-section {
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.h2-cv {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.heading-3 {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 16px;
+}
+
+.heading-3 span {
+    display: inline-block;
+}
+
+.full-width {
+    display: inline-block;
+    width: 100%;
+}
+
+.li-cv {
+    text-align: justify;
+    font-size: 10px;
+    list-style: outside;
+    margin-top: 8px;
+}
+
+.last-content {
+    font-size: 10px;
+}
+
+b {
+    font-weight: bold;
+}
+
+
+/* Menu */
+.menu{
+    padding: 0px 60px;
+    font-size: 0px;
+    background-color: blue;
+    justify-content: center;
+    display: flex;
+}
+
+.menu li {
+    display: inline-block;
+
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 16px;
+} 
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Form */
+.register {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group .form-label {
+    display: block;
+}
+
+.register {
+    background: white;
+    max-width: 600px;
+    padding: 30px;
+}
+
+.form-h1 {
+    font-size: 24px;
+    max-width: 600px;
+    padding: 30px;
+}
+
+.form-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.form-vertial label {
+    display: block;
+}
+
+.btn {
+    border: none;
+    padding: 4px 16px;
+    text-align: center;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    background-color: blue;
 }
